@@ -1,0 +1,39 @@
+
+  /* Style the search field */
+  form.search input[type=search] {
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  /* Style the submit button */
+  form.search button {
+    float: left;
+    width: 20%;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+#publication::-webkit-scrollbar{
+  width: 0px;
+}
